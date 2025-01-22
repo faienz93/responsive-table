@@ -1,4 +1,6 @@
-
+.cell-header {
+    display: none;
+}
 
 @media screen and (max-width: 600px) {
   .responsive-table th {
@@ -7,5 +9,11 @@
 
   .responsive-table td {
     display: flex;
+    justify-content: space-between;
+  }
+
+  .responsive-table .cell-header {
+    display: block;
+    font-weight: bold;
   }
 }
