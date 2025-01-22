@@ -3,9 +3,9 @@
 import { students} from '../student.tsx'
 import './TableComponent.css'
 
-export default function TableComponent() {
+export default function TableComponent({className}) {
     return (
-        <table>
+        <table className={className}>
           <thead>
             <tr>
               <th>Student ID</th>

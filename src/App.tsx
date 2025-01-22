@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import ScrollableTable from './components/ScrollableTable'
+import ResponsiveTable from './components/ResponsiveTable'
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
 
       <h2>Scrollable Table</h2>
       <ScrollableTable />
-
+      <h2>Responsive Table</h2>
+      <ResponsiveTable />
 
     </>
   )
