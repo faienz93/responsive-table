@@ -1,6 +1,7 @@
 
 
 import { students} from '../student.tsx'
+import './TableComponent.css'
 
 export default function TableComponent() {
     return (
