@@ -1,16 +1,18 @@
 import { useState } from 'react'
 import './App.css'
-import TableComponent from './components/TableComponent'
+import ScrollableTable from './components/ScrollableTable'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <TableComponent />
-      </div>
-      
+
+      <h2>Scrollable Table</h2>
+      <ScrollableTable />
+
+
     </>
   )
 }
