@@ -1,6 +1,6 @@
 
 
-import { students} from './student.tsx'
+import { students} from '../student.tsx'
 
 export default function TableComponent() {
     return (
